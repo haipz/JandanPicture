@@ -1,4 +1,8 @@
-#coding: utf-8
+# -*- coding: utf-8 -*-
+#
+# Copyright © 2016 Haipz <haipz@gmail.com | @haipz.com>
+#
+# Distributed under terms of the MIT license.
 
 import sys
 reload(sys)
