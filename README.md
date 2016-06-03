@@ -10,7 +10,7 @@ Stay Simple, Stay Naive.
 *   Update `HTTP Proxy IP` by multiple process and check the status of `IP` automatically
 *   Analyze the original picture url and download the popular picture into the `ooxx` directory
 
-# Requirements
+# Requirement
 
 *   Python 2.7
 *   Scrapy
