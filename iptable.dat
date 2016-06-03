@@ -1,0 +1,16 @@
+http://www.xicidaili.com/
+
+var s=document.createElement('script');
+s.setAttribute('src','https://code.jquery.com/jquery-2.1.1.min.js');
+s.setAttribute('type','text/javascript');
+document.getElementsByTagName('head')[0].appendChild(s);
+
+var iptable = "";
+$('tr[class]').each(function(){
+	if ($($(this).children()[5]).text() == 'HTTP' &&
+		parseFloat($($($(this).children()[6]).children()[0]).attr("title").replace('秒', '')) < 1.0 &&
+		parseFloat($($($(this).children()[7]).children()[0]).attr("title").replace('秒', '')) < 1.0) {
+		iptable += "\t{'ip_port': '"+$(this).children()[1].innerHTML+':'+$(this).children()[2].innerHTML+"', 'user_pass': ''},\n";
+	}
+});
+console.log(iptable);
