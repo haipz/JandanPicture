@@ -2,13 +2,7 @@
 
 This is a `Jandan Spider`.
 
-Simple description, isn't it?
-
-* * *
-
 Stay Simple, Stay Naive.
-
-* * *
 
 # Feature
 
@@ -29,6 +23,6 @@ Stay Simple, Stay Naive.
 *   Windows: Double click `run.bat`
 *   Linux or OS X: Run command `scrapy crawl JandanPicture`
 
-# About Author
+# Author
 
 Haipz @haipz.com
