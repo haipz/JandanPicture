@@ -4,6 +4,10 @@ This is a `Jandan Spider`.
 
 Stay Simple, Stay Naive.
 
+# Warning
+
+Just for studying. Please don't consume `Jandan` too much network traffic.
+
 # Feature
 
 *   Request by selecting `User Agetn` from `User Agent List` randomly
